@@ -22,4 +22,4 @@ jobs:
 
       - name: Проверка кода линтером ruff
         run: |
-          ruff .
+          ruff check .
